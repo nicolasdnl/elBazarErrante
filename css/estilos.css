@@ -9,20 +9,6 @@
 
 /* font-family: 'Montserrat', sans-serif; (como llamar a la fuente) */
 
-/* .contenedor{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 240px 50px auto auto;
-    grid-template-areas: 
-    "encabezado encabezado encabezado encabezado encabezado"
-    "barraNavegacion barraNavegacion barraNavegacion barraNavegacion barraNavegacion"
-    "contenido contenido contenido contenido contenido"
-    "pie pie pie pie pie" ;
-    justify-items: stretch;
-    align-items: stretch;
-    min-height: 100vh;
-} */
-
 .fondo{
     background-image: url(../media/encabezado.jpg);
     background-size: cover;
@@ -80,64 +66,10 @@ body{
     background-color: #D4A373;
 }
 
-/* .barraNavegacion{
-    background-color: #D4A373;
-    grid-area: barraNavegacion;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-
-.barraNavegacion a{
-    background: none;
-    text-decoration: none;
-}
-
-.barraNavegacion__logo{
-    width: 50px;
-    height: 50px;
-    display: inline;
-    background: none;
-}
-
-.barraNavegacion ul{
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    background: none;
-    display: flex;
-    justify-content: end;
-    width: 100%;
-}
-
-.barraNavegacion__menu li{
-    text-align: right;
-    background: none;
-    align-self: center;
-    padding: 0px 4px 0 4px;
-} */
-
 .sinSubrayado{
     text-decoration: none;
     color: #472F16;
 }
-
-/* .principal{
-    font-family: 'Montserrat', sans-serif;
-    color: #472F16;
-    font-size: 14px;
-    text-align: center;
-    grid-area: contenido;
-    width: 45%;
-    justify-self: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    margin-top: 1px;
-    height: auto;
-} */
 
 .principal{
     text-align: center;
@@ -150,8 +82,6 @@ body{
 }
 
 .princial__titulo{
-    /* margin-left: 50px;
-    margin-right: 50px; */
     margin-bottom: 5px;
     text-align: center;
 }
@@ -231,9 +161,7 @@ body{
     grid-area: contenido;
     display: flex;
     flex-direction: column;
-    /* width: 60%; */
     background-color: #FAEDCD;
-    margin-top: 1px;
 }
 
 .principalProductos{
@@ -300,7 +228,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 85%;
+    padding-bottom: 50px;
 }
 
 .pedidos{
@@ -310,6 +238,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.btn-primary{
+    background-color: #472F16;
+    border: #472F16
 }
 
 .principalPedidos{
@@ -367,7 +300,6 @@ body{
 .contenedorNosotros{
     justify-self: center;
     grid-area: contenido;
-    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -383,9 +315,7 @@ body{
     color: #472F16;
     display: inline-block;
     text-align: center;
-    margin: 10px;
     padding: 10px;
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -394,7 +324,6 @@ body{
     display: inline;
     text-align: left;
     width: 100%;
-    float: left;
     margin-right: 2px;
 }
 
@@ -402,8 +331,6 @@ body{
     display: inline;
     text-align: left;
     width: 100%;
-    float: right;
-    margin-left: 2px;
 }
 
 .centrar{
@@ -415,10 +342,8 @@ body{
 .contenedorBlog{
     grid-area: contenido;
     justify-self: center;
-    width: 80%;
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
 }
 
 .principalBlog{
@@ -469,16 +394,6 @@ body{
     }
 
     /* MEDIA QUERY HOME */
-
-    /* .principal{
-        width: 90%;
-    } */
-
-    /* MEDIA QUERY PRODUCTOS */
-
-    /* .contenidoProductos{
-        width: 90%;
-    } */
 
     .productos{
         flex-direction: column;
