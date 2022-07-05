@@ -231,7 +231,7 @@ body{
     grid-area: contenido;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    /* width: 60%; */
     background-color: #FAEDCD;
     margin-top: 1px;
 }
@@ -470,15 +470,15 @@ body{
 
     /* MEDIA QUERY HOME */
 
-    .principal{
+    /* .principal{
         width: 90%;
-    }
+    } */
 
     /* MEDIA QUERY PRODUCTOS */
 
-    .contenidoProductos{
+    /* .contenidoProductos{
         width: 90%;
-    }
+    } */
 
     .productos{
         flex-direction: column;
