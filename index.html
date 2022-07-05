@@ -14,12 +14,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
   </head>
 
-  <body class="contenedor">
-    <header class="encabezado">
-      <h1 class="encabezado__titulo">El Bazar Errante</h1>
+  <body class="container-fluid">
+
+    <header class="row fondo">
+      <h1 class="h2 container-fluid fondoTexto">El Bazar Errante</h1>
     </header>
 
-    <nav class="barraNavegacion">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="media/logo.png" alt="logo" class="NavImagenLogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-12 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/haz_tu_pedido.html">Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav class="barraNavegacion">
       <a href="index.html">
         <img src="media/logo.png" alt="logo" title="Ir a home" class="barraNavegacion__logo"/>
       </a>
@@ -30,28 +59,28 @@
         <li><a href="paginas/nosotros.html" class="sinSubrayado">Nosotros</a></li>
         <li><a href="paginas/blog.html" class="sinSubrayado">Blog</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
-    <main class="principal">
+    <main class="principal row">
       <div>
-      <img src="media/tienda.jpg" alt="" class="principal__logoHome animacionImagenes"/>
+      <img src="media/tienda.jpg" alt="" class="principal__logoHome animacionImagenes col-12"/>
       <h2 class="princial__titulo">El Bazar Errante</h2>
-      <p class="principal__texto">
+      <p class="principal__texto col-12">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, molestiae quisquam quaerat, illo officiis sequi reprehenderit numquam, facilis ipsum inventore delectus? Eius laboriosam a labore quas, ab, saepe esse deleniti autem necessitatibus quibusdam et dolore praesentium quisquam vero iusto distinctio, sequi reiciendis officiis facere. Voluptas sunt iste blanditiis ullam quidem mollitia enim saepe fugiat ipsa explicabo nam nobis rerum facere doloremque esse molestiae animi possimus error, tempore expedita perspiciatis. Tempore at, dignissimos eaque earum perferendis ducimus illum natus doloremque architecto. Recusandae ipsum pariatur cumque at sequi fugit optio dolore nemo sit iste quis, odio ut voluptas aspernatur quos tenetur ad?
       </p>
     </div>
     </main>
 
-    <footer class="piePagina">
-      <div class="redes">
+    <footer class="piePagina row">
+      <div class="redes col-3 col-sm-1">
         <a href="https://www.facebook.com"><img src="media/facebook.png" alt="facebook" class="piePagina__social"/></a>
         <p><a href="https://www.facebook.com" class="sinSubrayado">Facebook</a></p>
       </div>
-      <div class="redes">
+      <div class="redes col-3 col-sm-1">
         <a href="https://instagram.com"><img src="media/instagram.png" alt="instagram" class="piePagina__social"/></a>
         <p><a href="https://instagram.com" class="sinSubrayado">Instagram</a></p>
       </div>
-      <div class="redes">
+      <div class="redes col-3 col-sm-1">
         <a href="https://twitter.com"><img src="media/twitter.png" alt="twitter" class="piePagina__social"/></a>
         <p><a href="https://twitter.com" class="sinSubrayado">Twitter</a></p>
       </div>
