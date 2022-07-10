@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 240px 50px auto auto;
-    grid-template-areas: 
+    grid-template-areas:
     "encabezado encabezado encabezado encabezado encabezado"
     "barraNavegacion barraNavegacion barraNavegacion barraNavegacion barraNavegacion"
     "contenido contenido contenido contenido contenido"
@@ -350,7 +350,6 @@ form p{
 }
 
 .boton{
-    display: inline-block;
     float: right;
     margin-right: 10%;
     border-radius: 5px;
