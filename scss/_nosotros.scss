@@ -1,0 +1,61 @@
+.contenedorNosotros{
+    justify-self: center;
+    grid-area: contenido;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.principalNosotros{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    text-align: center;
+}
+
+.visionMision{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.vision{
+    display: inline;
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-right: 2px;
+}
+
+.mision{
+    display: inline;
+    text-align: left;
+    width: 100%;
+    float: right;
+    margin-left: 2px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+@media screen and (max-width: 426px){
+
+    .visionMision{
+        flex-direction: column;
+    }
+
+    .vision{
+        margin-top: 5px;
+    }
+
+    .mision{
+        margin-top: 10px;
+    }
+
+}

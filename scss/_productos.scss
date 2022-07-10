@@ -1,0 +1,82 @@
+.contenidoProductos{
+    justify-self: center;
+    grid-area: contenido;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #FAEDCD;
+    margin-top: 1px;
+}
+
+.principalProductos{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    text-align: center;
+}
+
+.princial__titulo__productos{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.productos{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombrePrecioDescripcion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.nombrePrecio{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    h2{
+        width: 145px;
+        text-align: left;
+    }
+}
+
+.producto__imagen{
+    width: auto;
+    height: auto;
+    width: 100%;
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.producto__descripcion{
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 426px){
+
+    .contenidoProductos{
+        width: 90%;
+    }
+
+    .productos{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .nombrePrecioDescripcion{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
