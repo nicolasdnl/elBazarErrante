@@ -83,9 +83,21 @@
     padding: 0px 4px 0 4px;
 }
 
+.seccionActiva{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    background-color: #CCD5AE;
+}
+
 .sinSubrayado{
     text-decoration: none;
     color: #472F16;
+}
+
+.sinSubrayado:hover{
+    color: white;
 }
 
 .principal{
@@ -294,10 +306,11 @@
     float: left;
     padding-left: 10px;
     padding-right: 10px;
+    position: relative;
 }
 
 .anchoFormulario{
-    width: 100%;
+    width: 90%;
 }
 
 .pedidos__recoge{
@@ -314,8 +327,9 @@
 }
 
 .boton{
-    display: block;
+    display: inline-block;
     float: right;
+    margin-right: 10%;
 }
 
 /* ESTILOS Y MODIFICADORES DE NOSOTROS */
