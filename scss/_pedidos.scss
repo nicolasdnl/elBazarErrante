@@ -1,0 +1,111 @@
+.contenedorPedidos{
+    justify-self: center;
+    grid-area: contenido;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.pedidos{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.principalPedidos{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedidos__titulo{
+    margin: 0px 0px 15px 0px ;
+    text-align: left;
+}
+
+.pedidos__enviamos{
+    display: inline;
+    text-align: justify;
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+form{
+    border: 0.75px;
+    p{
+        margin-top: 10px;
+    }
+}
+
+.anchoFormulario{
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: azure;
+    border-color: #472F16;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p{
+        padding-left: 10px;
+        margin: 0;
+    }
+}
+
+.pedidos__recoge{
+    display: inline;
+    text-align: center;
+    width: 50%;
+    float: right;
+    padding: 5px
+}
+
+.margenCheck{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.boton{
+    float: right;
+    margin-right: 10%;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #472F16;
+}
+
+@media screen and (max-width: 426px){
+
+    .pedidos{
+        flex-direction: column;
+    }
+
+    .pedidos__enviamos{
+        width: 100%;
+    }
+
+    .pedidos__recoge{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}

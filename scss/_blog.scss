@@ -1,0 +1,32 @@
+.contenedorBlog{
+    grid-area: contenido;
+    justify-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.principalBlog{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    text-align: center;
+}
+
+.blog{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.entrada{
+    display: inline-block;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.entrada__titulo{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+.principal{
+    font-family: 'Montserrat', sans-serif;
+    color: #472F16;
+    font-size: 14px;
+    text-align: center;
+    grid-area: contenido;
+    width: 45%;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    height: auto;
+}
+
+.principal__logoHome{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.princial__titulo{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+
+.principal__texto {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 426px){
+
+    .principal{
+        width: 90%;
+    }
+
+}
