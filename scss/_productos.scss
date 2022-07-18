@@ -52,8 +52,7 @@
     width: auto;
     height: auto;
     width: 100%;
-    min-width: 100px;
-    max-width: 300px;
+    @include imagenProducto(100px, 300px)
 }
 
 .producto__descripcion{

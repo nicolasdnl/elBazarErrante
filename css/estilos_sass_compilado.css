@@ -27,6 +27,7 @@
   font-weight: 600;
   font-style: italic;
   color: #FAEDCD;
+  font-size: 32px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -70,16 +71,25 @@
   justify-content: center;
   background-color: #CCD5AE; }
 
-.sinSubrayado {
+.sinSubrayado, .sinSubrayadoFacebook, .sinSubrayadoInstagram, .sinSubrayadoTwitter {
   text-decoration: none;
   color: #472F16; }
-  .sinSubrayado:hover {
+  .sinSubrayado:hover, .sinSubrayadoFacebook:hover, .sinSubrayadoInstagram:hover, .sinSubrayadoTwitter:hover {
     color: white; }
+
+.sinSubrayadoFacebook {
+  color: #3b5998; }
+
+.sinSubrayadoInstagram {
+  color: #dd2a7b; }
+
+.sinSubrayadoTwitter {
+  color: #00acee; }
 
 .animacionImagenes {
   transition: all 1.5s ease-out; }
   .animacionImagenes:hover {
-    transform: scale(1.5, 1.5); }
+    transform: scale(1.2, 1.2); }
 
 .animacionAmpliar {
   animation-duration: 1.5s;
@@ -154,6 +164,7 @@
   width: 90%; }
 
 .princial__titulo {
+  font-size: 21px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 5px; }

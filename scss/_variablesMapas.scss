@@ -1,0 +1,21 @@
+// VARIABLES
+
+$colorFondo: #FAEDCD;
+$colorPrincipal: #D4A373;
+$colorSecundario: #CCD5AE;
+
+// MIXIN
+
+@mixin imagenProducto($minimo, $maximo){
+    min-width: $minimo;
+    max-width: $maximo;
+}
+
+// MAPAS
+
+$colorRedes: (
+    facebook: #3b5998,
+    instagram: #dd2a7b,
+    twitter: #00acee,
+);
+
