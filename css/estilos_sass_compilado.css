@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FAEDCD; }
+  background-color: white; }
 
 .contenedor {
   display: grid;
@@ -92,7 +92,7 @@
     transform: scale(1.2, 1.2); }
 
 .animacionAmpliar {
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-name: ampliar;
   animation-iteration-count: infinite; }
 
@@ -100,7 +100,7 @@
   0% {
     transform: scale(1, 1); }
   50% {
-    transform: scale(1.5, 1.5); }
+    transform: scale(1.1, 1.1); }
   100% {
     transform: scale(1, 1); } }
 
@@ -161,7 +161,8 @@
 .principal__logoHome {
   margin-top: 50px;
   margin-bottom: 20px;
-  width: 90%; }
+  width: 90%;
+  border-radius: 10px; }
 
 .princial__titulo {
   font-size: 21px;
@@ -183,7 +184,7 @@
   display: flex;
   flex-direction: column;
   width: 60%;
-  background-color: #FAEDCD;
+  background-color: white;
   margin-top: 1px; }
 
 .principalProductos {
@@ -193,7 +194,8 @@
 
 .princial__titulo__productos {
   margin-top: 18px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background: none; }
 
 .productos {
   font-family: 'Montserrat', sans-serif;
@@ -224,6 +226,7 @@
   width: auto;
   height: auto;
   width: 100%;
+  border-radius: 8px;
   min-width: 100px;
   max-width: 300px; }
 
@@ -294,7 +297,7 @@ form {
   width: 90%;
   border-radius: 5px;
   padding: 5px;
-  background-color: azure;
+  background-color: white;
   border-color: #472F16; }
 
 .checkbox {
